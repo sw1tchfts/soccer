@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.5",
+  "Category": "",
+  "Description": "Fortnite-styled 5v5 Soccer Game",
+  "Modules": [
+    {
+      "Name": "SoccerGame",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine",
+        "CoreUObject",
+        "UMG"
+      ]
+    }
+  ],
+  "Plugins": [
+    { "Name": "OnlineSubsystemSteam", "Enabled": true },
+    { "Name": "OnlineSubsystem", "Enabled": true },
+    { "Name": "SteamSockets", "Enabled": true },
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "CommonUI", "Enabled": true },
+    { "Name": "Niagara", "Enabled": true }
+  ]
+}

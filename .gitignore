@@ -1,0 +1,51 @@
+# UE5 Build artifacts
+Binaries/
+Intermediate/
+DerivedDataCache/
+Build/
+
+# UE5 Saved data
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# JetBrains Rider
+.idea/
+*.DotSettings.user
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
